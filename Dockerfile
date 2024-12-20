@@ -4,4 +4,4 @@ EXPOSE 8080
 
 COPY target/*.jar /
 
-ENTRYPOINT []
+ENTRYPOINT ["java", "-jar", "/webgoat.jar"]
